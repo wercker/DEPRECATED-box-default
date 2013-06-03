@@ -1,0 +1,11 @@
+name : default
+version : 0.0.1
+description: Default box
+inherits : wercker/ubuntu12.04-webessentials@0.0.3
+type : main
+platform : ubuntu@12.04
+box-detect:
+  priority : 1
+  version : 
+  detect:
+    - default: true
